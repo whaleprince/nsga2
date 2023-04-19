@@ -8,6 +8,7 @@ import numpy as np
 _fig = plt.figure()
 
 def draw_pareto(epoch, front, p, dim=2):
+    _fig = plt.figure()
     xs, front = front
     color = 'black'
     if epoch == 0:
